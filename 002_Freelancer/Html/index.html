@@ -10,6 +10,24 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
     <nav class="navbar bg-navbar navbar-expand-lg font-family-Montserrat fixed-top">
         <div class="container py-3">
             <a href="#" class="my-auto navbar-brand nav-link text-white text-uppercase fs-3">Start bootstrap</a>
@@ -64,43 +82,55 @@
         </div>
         <div class="container">
             <div class="row pt-5">
-                <div class="col-lg-4 col-sm-6  position-relative">
-                    <img src="../img/cabin.png" class="w-100 h-100 rounded" alt="">
-                    <div class="portfolio-div w-100 h-100 img-fluid rounded">
-                        <i class="fa-solid fa-magnifying-glass-plus portfolio-div-item display-1"></i>
+                <div class="col-lg-4 col-sm-6  position-relative portfolio-reset">
+                    <img src="../img/cabin.png" class="w-100 h-100 " alt="">
+                    <div class="portfolio-div w-100 h-100 img-fluid ">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <i class="fa-solid fa-magnifying-glass-plus portfolio-div-item display-1 text-dark"></i>
+                        </a>
                     </div>
                     
                 </div>
-                <div class="col-lg-4 col-sm-6 position-relative">
-                    <img src="../img/cake.png " class="img-fluid rounded" alt="">
-                    <div class="portfolio-div w-100 h-100 img-fluid rounded">
-                        <i class="fa-solid fa-magnifying-glass-plus portfolio-div-item display-1"></i>
+                <div class="col-lg-4 col-sm-6 position-relative portfolio-reset">
+                    <img src="../img/cake.png " class="img-fluid " alt="">
+                    <div class="portfolio-div w-100 h-100 img-fluid ">
+                        <a href="">
+                            <i class="fa-solid fa-magnifying-glass-plus portfolio-div-item display-1 text-dark"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 position-relative">
-                    <img src="../img/circus.png" class="img-fluid rounded" alt="">
-                    <div class="portfolio-div w-100 h-100 img-fluid rounded">
-                        <i class="fa-solid fa-magnifying-glass-plus portfolio-div-item display-1"></i>
+                <div class="col-lg-4 col-sm-6 position-relative portfolio-reset">
+                    <img src="../img/circus.png" class="img-fluid " alt="">
+                    <div class="portfolio-div w-100 h-100 img-fluid ">
+                        <a href="">
+                            <i class="fa-solid fa-magnifying-glass-plus portfolio-div-item display-1 text-dark"></i>
+                        </a>
                         
                         
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 position-relative">
-                    <img src="../img/game.png" class="img-fluid rounded" alt="">
-                    <div class="portfolio-div w-100 h-100 img-fluid rounded">
-                        <i class="fa-solid fa-magnifying-glass-plus portfolio-div-item display-1"></i>
+                <div class="col-lg-4 col-sm-6 position-relative portfolio-reset">
+                    <img src="../img/game.png" class="img-fluid " alt="">
+                    <div class="portfolio-div w-100 h-100 img-fluid ">
+                        <a href="">
+                            <i class="fa-solid fa-magnifying-glass-plus portfolio-div-item display-1 text-dark"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 position-relative">
-                    <img src="../img/safe.png " class="img-fluid rounded" alt="">
-                    <div class="portfolio-div w-100 h-100 img-fluid rounded">
-                        <i class="fa-solid fa-magnifying-glass-plus portfolio-div-item display-1"></i>
+                <div class="col-lg-4 col-sm-6 position-relative portfolio-reset">
+                    <img src="../img/safe.png " class="img-fluid " alt="">
+                    <div class="portfolio-div w-100 h-100 img-fluid ">
+                        <a href="">
+                            <i class="fa-solid fa-magnifying-glass-plus portfolio-div-item display-1 text-dark"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 position-relative">
-                    <img src="../img/submarine.png" class="img-fluid rounded" alt="">
-                    <div class="portfolio-div w-100 h-100 img-fluid rounded">
-                        <i class="fa-solid fa-magnifying-glass-plus portfolio-div-item display-1"></i>
+                <div class="col-lg-4 col-sm-6 position-relative portfolio-reset">
+                    <img src="../img/submarine.png" class="img-fluid " alt="">
+                    <div class="portfolio-div w-100 h-100 img-fluid ">
+                        <a href="">
+                            <i class="fa-solid fa-magnifying-glass-plus portfolio-div-item display-1 text-dark"></i>
+                        </a>
                     </div>
                 </div>
             </div>
